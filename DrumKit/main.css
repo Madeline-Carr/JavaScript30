@@ -4,6 +4,7 @@
 body{
     margin: 0px;
     background-color: rgb(19, 19, 19);
+    background: url(black.jpg)  bottom;
 }
 .container{
     text-align: center;
@@ -11,6 +12,10 @@ body{
     margin: 0 auto;
     
 }    
+p{
+    color: white;
+    background-color: none;
+}
 
 h1{
     color: white;
@@ -21,7 +26,9 @@ h1{
     margin-bottom: 80px;
     border-bottom: 5px solid white;
 }
-
+h2{
+    color: white;
+}
 #row{
     color: white;
     display: flex;
@@ -47,4 +54,10 @@ h1{
     background-color: black;
     transform: scale(1.1);
     box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.829);
+}
+
+.textBox{
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
 }
